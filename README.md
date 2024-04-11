@@ -39,5 +39,6 @@ documentation
 * The local path must be absolute.
 * In the shell [command substitution](https://www.gnu.org/software/bash/manual/html_node/Command-Substitution.html) is used to replace a command with its output (like a function call).
 
-  `docker run -d -p 80:80 -v $(pwd)/data:/app/data --name web_counter web_counter`
+  `docker run -d -p 80:80 -v "$(pwd)/data":/app/data --name web_counter web_counter`
   
+NOTE: We put quotes around `$(pwd)/data` in case there is a space in the path that `pwd` generates.
