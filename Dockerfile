@@ -1,4 +1,4 @@
-FROM python:slim
+FROM amazonlinux
 
 WORKDIR /app
 
