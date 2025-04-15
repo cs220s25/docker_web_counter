@@ -10,7 +10,9 @@
   * The [`docker run`](https://docs.docker.com/engine/reference/commandline/run/) documentation
   
   `docker run -d -p 80:80 --name web_counter web_counter`
-  
+
+
+  * NOTE:  Your browser may *cache* the docker tutorial, which also ran on `localhost`.  If so, clear your browser cache - in Chrome, click the three dots next to your name and select "Delete Browsing Data"
 * Stop and remove the container
   * The [`docker stop`](https://docs.docker.com/engine/reference/commandline/stop/) documentation
   * The [`docker rm`](https://docs.docker.com/engine/reference/commandline/rm/) documentation
